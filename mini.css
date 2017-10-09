@@ -9,7 +9,7 @@
 
 body{font: 20px Montserrat, sans-serif; line-height: 1.5; background-color: #FFFFF8}
 p{font-size: 16px; text-align: center;}
-.margin{margin-bottom: 45px; margin-left: 5px;margin-right: 5px;margin-top: 5px;}
+.margin{margin-bottom: 45px; margin-left: 5px;margin-right: 5px;margin: 20px}
 
 .sec1{
 background-image: url(/Users/Shirun/Downloads/Tools/GIT/image/colosseum.JPG);
@@ -19,7 +19,6 @@ background-attachment: scroll;
 text-align: right;
 font-size: 10px;
 color: #FFFFFF;
-margin-top: 40px;
 }
 
 .sec4{
@@ -31,3 +30,7 @@ margin-top: 40px;
     padding-bottom: 70px;
 }
 
+#banner{
+    padding-top: 0;
+    
+}
