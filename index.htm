@@ -7,7 +7,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="mini.css">
@@ -17,82 +17,202 @@
     
         
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-inverse affix" data-spy="affix" data-offset-top="30">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="btn btn-default" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+                        <span class="glyphicon glyphicon-list"></span>
+                    </button>
+                    <a class="nav-brand" href="#Home">I'm a logo!</a>
+            </div>
+                    <div class="collapse navbar-collapse" id="MyNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#Home">Home</a></li>
+                            <li><a href="#About">About.Me</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Exp">Experience</a></li>
+                            <li><a href="#Stuff">Stuff I do</a></li>
+                            <li><a href="#Photos">Photo Album</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+
+    </nav>
     <!-- block 0 top banner-->
     <div id="banner" class="container-fluid text-center">
         <div class="row">
             <div class="col">
-    <img src="image/tilit.JPG" alt="titlis" class="img-responsive img-rounded" style="display:float" width="100%"></div>
+    <img src="image/tilit.JPG" alt="titlis" class="img-responsive" width="100%"></div>
             </div>
         </div>
     
-    <!-- my big head icon-->
-            <div class="panel panel-default icon text-center"> 
-                <h3 class="margin">HI, I am Shawn.</h3>
-                <img src="image/icon.JPG" alt="icon" class="img-responsive img-circle" style="display:inline"  width="30%">
-                    <h3>I am newbie coder. <br>This is my first website I ever code from scatch.</h3></div>
+    <!-- about me-->
+            <div class="container text-center" id="About"> 
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                            <h2 class="margin">HI!</h2>    
+                                 <h5>I am newbie coder. <br>This is my first website I ever code from scatch.I am newbie coder. <br>This is my first website I ever code from scatch.I am newbie coder. </h5></div>
              
-                   
-
-    <!-- first block -->
-    <div id="travel" class="container-fluid sec1 margin" ><h3>Travelling is a big thing to me.<br><br><br>Everytime I step in country and city I never been,<br> my adrenaline climbs up. <br> <br><br>Last summer, <br>I finally got the chance to travel somewhere further.</h3> </div>    
-    
-    <div id="guess" class="container-fluid text-center margin">
-                            <h2>Where did I go?</h2>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                      <div class="thumbnail">
+        
+                            
+                                
+                            <div class="col-lg-3 col-md-3 col-sm-3"><h2>Where</h2>
+                                      
                                         <img src="image/NYC.JPG" alt="NYC" class="img-responsive img-rounded" style="display:inline" width="70%">
                                             <div class="caption"><p>NYC</p></div>
-                                        </div>
+                                      
                                 
                                      </div>
 
-                            <div class="col-md-4">
-                                    <div class="thumbnail">
+                                     <div class="col-lg-3 col-md-3 col-sm-3"><h2>What</h2>
+                                    
                                         <img src="image/Paris.JPG" alt="Paris" class="img-responsive img-rounded" style="display:inline" width="70%">
                                             <div class="caption"><p>Paris</p></div>
                                     </div>
-                            </div>      
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <img src="image/Italy.JPG" alt="Italy" class="img-responsive img-rounded " style="display:inline" width="70%">
+                                
+                            <div class="col-lg-3 col-md-3 col-sm-3"><h2>When</h2>
+            
+                                <img src="image/Italy.JPG" id="hero" alt="Italy" class="img-responsive img-rounded " style="display:inline" width="70%" >
                                     <div class="caption"><p>Italy</p></div>
                             </div>
                         </div>
              </div>
      </div>
- <!-- second block -->          
-    <div class="container-fluid sec2 text-center">
-                    <h3 class="margin">I like to meet new poeple.</h3> <p>Guess whom I met over the summer.</p>
-                        <div class="col-md-4">
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#van"> A great artist with single ear</button> 
-                       <div id="van" class="collapse"> 
-                           <img src="image/me-with-van.JPG" alt="Van" class="img-resposive img-rounded margin" style="display:inline" width="350" >
-                            <p class="margin">Van Gogh</p>
-                        </div>
-                    </div>
+ 
                 
+   <!--- skills block -->
+   <div class="container text-center" id="Skills">
+       <div class="row">
+           <div class="col-md-6">
+        <h3>Skills ! What a word !</h3>
+        <p>table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! table on the rgiht ! </p>
+        <p>table-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! able-responsive! </p>
+           </div>
+           <div class="col-md-6 table-responsive">
+               <!-- skills go here -->
+                   <table class="table"> <!---table -->
+                       <h4>Check my skills !</h4>
+                       <thead>
+                           <tr>
+                               <th>Skillsets/Languages</th>
+                               <th></th>
+                                <th>Capability</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                        <tr>
+                        <td><span class="fa fa-html5"></span></td>
+                        <td><button id="first-button">You</button></td> 
+                        <td><span class="fa fa-times-circle" id="fa0"></span></td>            
+                        </tr>   
+                     <tr>
+                         <td><span class="fa fa-css3"></span></td>
+                         <td><button id="second-button">know</button></td>
+                         <td><span class="fa fa-times-circle"id="fa1"></span></td>
+                     </tr>
+                     <tr>
+                         <td><span class="fa fa-git"></span></td>
+                         <td><button>How</button></td>
+                         <td><span class="fa fa-times-circle"id="fa2"></span></td>
+                     </tr>
+                     <tr>
+                         <td><span class="fa fa-windows"></span></td>
+                         <td><button>Much</button></td>
+                         <td><span class="fa fa-times-circle"id="fa3"></span></td>
+                     </tr>
+                     <tr>
+                         <td><span class="fa fa-linux"></span></td>
+                         <td><button>I</button></td>
+                         <td><span class="fa fa-times-circle"id="fa4"></span></td>
+                     </tr>
+                     <tr>
+                         <td><span class="fa fa-bug"></span></td>
+                         <td><button>Like</button></td>
+                         <td><span class="fa fa-times-circle"id="fa5"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="fa fa-user-secret"></span></td>
+                        <td><button>Buttons</button></td>
+                        <td><span class="fa fa-times-circle" id="fa6"></span></td>
 
-                        <div class="col-md-4">
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#mona">The most mysterious woman on Earth</button> 
-                                <div id="mona" class="collapse">
-                            <img src="image/me-with-mona.jpg" alt="Mona" class="img-responsive img-rounded margin" style="display:inline" width="350" >
-                        <P class="margin">Mona Lisa</P>
-                        </div>
+                    </tr>
+                       </tbody> 
+                   </table>
+               </div> <!-- div table -->
+           </div> <!-- col -->
+       </div> <!-- row -->
+
+  <!-- exp div with layers -->
+  
+  <div class="container text-center" id="Exp">
+      <div class="row">
+              <h1>Experience !</h1>
+              <p>some effect here! some effect here! some effect here! some effect here! </p>
+      <div class="blank"><img src="image/colosseum.JPG" class="img-responsive">
+          <div class="blank-content">
+              <h1>Ooops, something wrong!</h1>
+                  <button>Try me!</button></div>
+            </div>
+      </div>   
+</div>
+    
+  
+<!--- forth block 4 stuff i do-->
+<div class="container text-center" id="Stuff">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h1>Stuff I do</h1>
+                <p>1+3 with col-lg-3 col-md-3 col-sm-6 col-xs-12</p>
+                <br>
+                <p>1+3 with col-lg-3 col-md-3 col-sm-6 col-xs-12</p>
+                <br>
+            
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <img src="image/me-with-van.JPG" id="icon" class="img-resposive img-rounded margin">
+                <h4>Van Gogh</h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="image/me-with-mona.jpg" id="icon" class="img-responsive img-rounded margin" style="display:inline" width="350" >
+                    <h4>Mona Lisa</h4>
+                </div> 
+             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="image/me-with-david.JPG" id="icon" class="img-responsive img-rounded margin" style="display:inline" width="350" >
+                    <h4>David</h4>
+                    </div>   
+    </div>
+</div>
+
+<!-- second block        
+<div class="container sec2 text-center" id="Stuff">
+        <h2>What stuff?</h2>
+        <div class="row">
+                    <h3 class="margin">I like to meet new poeple.</h3> <p>Guess whom I met over the summer.</p>
+                        <div class="col-sm-4">
+                              
+                           <img src="image/me-with-van.JPG" id="icon" class="img-resposive img-rounded margin">
+                            <h4>Van Gogh</h4>
                         </div>
                     
-                        <div class="col-md-4">
-                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#dav">World-famous naked man</button> 
-                                <div id="dav" class="collapse">
-                        <img src="image/me-with-david.JPG" alt="David" class="img-responsive img-rounded margin" style="display:inline" width="350" >
-                        <P class="margin">David</P>
-                    </div>
-                 </div>
-    </div>           
-                
                 
 
+                        <div class="col-sm-4">
+                         
+                        </div>
+                        
+                    
+                        <div class="col-sm-4">
+                        <img src="image/me-with-david.JPG" id="icon" class="img-responsive img-rounded margin" style="display:inline" width="350" >
+                        <h4>David</h4>
+                    </div>
+                 </div>
+    </div>        -->    
 
              
 
@@ -102,8 +222,11 @@
     <!-- carousel -->
     
 
-    <div id="carousel" class="container-fluid sec3 text-center">
-            <h3 class="margin">Some pictures I took.</h3>
+    <div id="carousel" class="container text-center" id="Photos">
+        <div class="row">
+        <div class="col">
+       
+            <h1 class="margin">Carousel</h1>
         <div id="carousel-a" class="carousel slide" data-ride="carousel">
                                  <!-- Indicators -->
                                  <ol class="carousel-indicators">
@@ -117,43 +240,118 @@
                                  <!-- Wrapper for slides -->
                                  <div class="carousel-inner">
                                    <div class="item active">
-                                     <img src="image/venice.JPG" alt="Venice" max-width="100%">
-                                   </div>
+                                     <img src="image/venice.JPG" alt="Venice" >
+                                     <div class="carousel-caption">
+                                         <h1>Go back to top?</h1>
+                                         <br>
+                                         <button type="button" class="btn btn-default"><a href="#About">Click me</a></button>
+                                     </div>
+                                   </div> <!-- end active -->
                              
                                    <div class="item">
-                                     <img src="image/netherland.JPG" alt="Netherland" max-width="100%">
+                                     <img src="image/netherland.JPG" alt="Netherland" >
                                    </div>
                                  
                                    <div class="item">
-                                     <img src="image/lucern.JPG" alt="Lucern" max-width="100%">
+                                     <img src="image/lucern.JPG" alt="Lucern" >
                                    </div>
                                      
                                    <div class="item">
-                                       <img src="image/worldtrade.JPG" alt="World Trade Centre" max-width="100%">
+                                       <img src="image/worldtrade.JPG" alt="World Trade Centre" >
                                  </div>
-                                    <div class="item">
-                                        <img src="image/met.JPG" alt="MET" max-width="100%">
+                                    <div class="item" >
+                                        <img src="image/met.JPG" alt="MET" >
                                     </div>
-                               </div>
+                               </div> <!-- end slide -->
                                  
                              
                                  <!-- Left and right controls -->
-                                 <a class="left carousel-control" href="#carousel-a" data-slide="prev">
-                                   <span class="glyphicon glyphicon-chevron-left"></span>
+                                 <a class="left carousel-control" href="#carousel-a" role="button" data-slide="prev">
+                                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                                    <span class="sr-only">Previous</span>
                                  </a>
-                                 <a class="right carousel-control" href="#carousel-a" data-slide="next">
-                                   <span class="glyphicon glyphicon-chevron-right"></span>
+                                 <a class="right carousel-control" href="#carousel-a" role="button" data-slide="next">
+                                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                    <span class="sr-only">Next</span>
                                     </a>
                                 </div>  
 
     </div>
+</div>
+</div>
+    <!-- hidden contact -->
+    
+    <div class="container text-center" id="Contact">
+        <div class="row">
+            <h2><a href="#hidden" data-toggle="collapse">How to contact me ?</a></h2>
+        <div id="hidden" class="collapse">
+            <h4> Drop me a line !</h4>
+            <p></p>
+            <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Your email:</span>
+                    <input type="text" class="form-control" placeholder="abc@def.com" aria-describedby="basic-addon1">
+                  </div>
+                  
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon2">your message:</span>
+                    <input type="text" class="form-control" placeholder="What do you think about this website?" aria-describedby="basic-addon2">
+                  </div>
+                  
+                  <div class="input-group">
+                    <button>Submit</button>
+                    <button>Clear</button>
+                  </div>
+                
+                  
+                <h2>Or via social media!</h2>
+                <div class="small-icons">
+                  <a href="https://www.facebook.com/"><span class="fa fa-facebook-square"></span></a>
+                  <a href="https://www.linkedin.com/uas/login"><span class="fa fa-linkedin-square"></span></a>
+                  <a href="https://twitter.com/?lang=en"><span class="fa fa-twitter-square"></span></a>
+                </div>
+            </div>
+            <!--- a input section in here with a submit button -->
+        </div>
+ 
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".blank-content button").click(function(){
+        $('.blank-content').remove();
+        $("<h1>That's better !</h1>").appendTo('#Exp p')
+        }
+    );
+    $('#fa0,#fa1,#fa2,#fa3,#fa4,#fa5,#fa6').toggle();
+    $('#first-button').click(function(){
+        var toggles = $('#fa0');
+        toggles.toggle('#fa0');
+    });
+    $('#second-button').click(function(){
+        $('#fa1,#fa2,#fa3,#fa4,#fa5,#fa6').toggle();
+    });
+    
+});
+</script>
+
 </body>
 
-<footer class="container-fluid sec4 text-center">
-<p>Website made by Shawn Pan</p>
-
+<footer class="container-fluid  text-center">
+    <div class="row">
+    <div class="col-sm-4">
+        <h4>Don't email me</h4>
+        <h4>I won't reply.</h4>
+    </div>
+    <div class="col-sm-4">
+            <p>Website made by Shawn Pan</p>
+            
+    </div>    
+    <div class="col-sm-4">
+                    <h3>Ciao</h3>
+    </div>
+</div>
 </footer>
 
 </html>

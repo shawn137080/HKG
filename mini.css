@@ -12,7 +12,7 @@ p{font-size: 16px; text-align: center;}
 .margin{margin-bottom: 45px; margin-left: 5px;margin-right: 5px;margin: 20px}
 
 .sec1{
-background-image: url(/Users/Shirun/Downloads/Tools/GIT/image/colosseum.JPG);
+background-image: url("/image/colosseum.JPG");
 background-size:cover;
 background-repeat:no-repeat;
 background-attachment: scroll;
@@ -21,16 +21,142 @@ font-size: 10px;
 color: #FFFFFF;
 }
 
-.sec4{
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff
-}
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
+
+
 
 #banner{
     padding-top: 0;
     
+}
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(41,136,214);
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+    z-index: 2;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    color: #FFF;
+    background-color: rgb(41,136,214);
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #d5d5d5;
+}
+
+.carousel-caption{
+    top:40%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+
+
+}
+
+.btn, {
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 22px;
+    background-color: rgb(41,136,214);
+    border:2px solid;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: rgb(41, 136, 214);
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:600px){
+    .carousel-caption{
+        display:none;
+    }
+    #icon{
+        max-width: 150px;   
+    }
+    h4{
+        font-size: .9em;
+    }
+}
+
+#icon{
+    max-width: 200px;
+    margin: 1% auto;
+
+}
+
+.container{
+    margin: 5% auto;
+   
+}
+footer {
+    width: 100%;
+    padding: 1%;
+    color: white;
+    background-color: rgb(41, 136, 214);
+max-height: 150px;
+}
+
+.affix{
+    width: 100%;
+}
+
+.nav-brand{
+    float: left;
+    min-height: 50px;
+    padding: 0 15px 5px;
+    color: white;
+}
+
+.carousel-inner{
+    height: relative 80vh ;
+}
+
+.table button{
+    width: 100px;
+}
+
+.blank{
+    position: relative;
+}
+.blank-content, .overlay{
+   position: absolute;
+height: 100%;
+width: 100%;
+z-index: 1;
+top: 0;
+background-color: black;
+color: white;
+}
+
+.blank-content button{
+    color: black;
+    z-index: 1;
+    
+}
+
+
+.small-icons{
+    font-size: 2em;
+}
+.small-icons span{
+    padding: 2%;
+}
+.fa-times-circle{
+    color: red;
+}
+.fa{
+    font-size: 1em;
+}
+
+#hero{
+   
 }
